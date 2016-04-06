@@ -1,0 +1,6 @@
+dogsList = ("Blue Heeler", "Red Heeler", "Kelpie", "Dingo")
+print(dogsList)
+dogsList.append("German Shepherd")
+print(dogsList)
+dogsList.remove("Red Heeler")
+print(dogsList)
