@@ -11,3 +11,7 @@ Guessing game, the final project for Junior Python Program for bits'n'bites
 8) At the end of the program ask the user if they would like to play again (y, n,) if they input anything other than
    y or n, say "invalid input"
 """
+import random
+topBound = int(input("The number chosen will go from 1 to..."))
+magicNumber = random.randint(1, topBound)
+userGuess = int(input("when "))
